@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA6DF922BC5AEC400A8531E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA6DF912BC5AEC400A8531E /* Assets.xcassets */; };
+		ECA6DF952BC5AEC400A8531E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA6DF942BC5AEC400A8531E /* Preview Assets.xcassets */; };
+		ECA6DF9F2BC5AEC500A8531E /* CalculusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6DF9E2BC5AEC500A8531E /* CalculusTests.swift */; };
+		ECA6DFA92BC5AEC500A8531E /* CalculusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6DFA82BC5AEC500A8531E /* CalculusUITests.swift */; };
+		ECA6DFAB2BC5AEC500A8531E /* CalculusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6DFAA2BC5AEC500A8531E /* CalculusUITestsLaunchTests.swift */; };
+		ECA6DFB92BC5AF1000A8531E /* CalculusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6DFB72BC5AF1000A8531E /* CalculusApp.swift */; };
+		ECA6DFBC2BC5AF3900A8531E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6DFBB2BC5AF3900A8531E /* ContentView.swift */; };
+		ECA6DFBE2BC5CC1B00A8531E /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6DFBD2BC5CC1B00A8531E /* GraphViewController.swift */; };
+		ECA6DFC02BC5CC6D00A8531E /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6DFBF2BC5CC6D00A8531E /* LineChartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA6DF9B2BC5AEC500A8531E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA6DF822BC5AEC400A8531E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA6DF892BC5AEC400A8531E;
+			remoteInfo = Calculus;
+		};
+		ECA6DFA52BC5AEC500A8531E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA6DF822BC5AEC400A8531E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA6DF892BC5AEC400A8531E;
+			remoteInfo = Calculus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECA6DF8A2BC5AEC400A8531E /* Calculus Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculus Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA6DF912BC5AEC400A8531E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA6DF942BC5AEC400A8531E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECA6DF9A2BC5AEC500A8531E /* Calculus HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculus HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA6DF9E2BC5AEC500A8531E /* CalculusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculusTests.swift; sourceTree = "<group>"; };
+		ECA6DFA42BC5AEC500A8531E /* Calculus HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculus HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA6DFA82BC5AEC500A8531E /* CalculusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculusUITests.swift; sourceTree = "<group>"; };
+		ECA6DFAA2BC5AEC500A8531E /* CalculusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECA6DFB72BC5AF1000A8531E /* CalculusApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculusApp.swift; sourceTree = "<group>"; };
+		ECA6DFBB2BC5AF3900A8531E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECA6DFBD2BC5CC1B00A8531E /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		ECA6DFBF2BC5CC6D00A8531E /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA6DF872BC5AEC400A8531E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA6DF972BC5AEC500A8531E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA6DFA12BC5AEC500A8531E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA6DF812BC5AEC400A8531E = {
+			isa = PBXGroup;
+			children = (
+				ECA6DF8C2BC5AEC400A8531E /* Calculus */,
+				ECA6DF9D2BC5AEC500A8531E /* CalculusTests */,
+				ECA6DFA72BC5AEC500A8531E /* CalculusUITests */,
+				ECA6DF8B2BC5AEC400A8531E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA6DF8B2BC5AEC400A8531E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6DF8A2BC5AEC400A8531E /* Calculus Helper.app */,
+				ECA6DF9A2BC5AEC500A8531E /* Calculus HelperTests.xctest */,
+				ECA6DFA42BC5AEC500A8531E /* Calculus HelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA6DF8C2BC5AEC400A8531E /* Calculus */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6DFBF2BC5CC6D00A8531E /* LineChartView.swift */,
+				ECA6DFBD2BC5CC1B00A8531E /* GraphViewController.swift */,
+				ECA6DFBB2BC5AF3900A8531E /* ContentView.swift */,
+				ECA6DFB72BC5AF1000A8531E /* CalculusApp.swift */,
+				ECA6DF912BC5AEC400A8531E /* Assets.xcassets */,
+				ECA6DF932BC5AEC400A8531E /* Preview Content */,
+			);
+			path = Calculus;
+			sourceTree = "<group>";
+		};
+		ECA6DF932BC5AEC400A8531E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6DF942BC5AEC400A8531E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECA6DF9D2BC5AEC500A8531E /* CalculusTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6DF9E2BC5AEC500A8531E /* CalculusTests.swift */,
+			);
+			path = CalculusTests;
+			sourceTree = "<group>";
+		};
+		ECA6DFA72BC5AEC500A8531E /* CalculusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6DFA82BC5AEC500A8531E /* CalculusUITests.swift */,
+				ECA6DFAA2BC5AEC500A8531E /* CalculusUITestsLaunchTests.swift */,
+			);
+			path = CalculusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA6DF892BC5AEC400A8531E /* Calculus Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA6DFAE2BC5AEC500A8531E /* Build configuration list for PBXNativeTarget "Calculus Helper" */;
+			buildPhases = (
+				ECA6DF862BC5AEC400A8531E /* Sources */,
+				ECA6DF872BC5AEC400A8531E /* Frameworks */,
+				ECA6DF882BC5AEC400A8531E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculus Helper";
+			productName = Calculus;
+			productReference = ECA6DF8A2BC5AEC400A8531E /* Calculus Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA6DF992BC5AEC500A8531E /* Calculus HelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA6DFB12BC5AEC500A8531E /* Build configuration list for PBXNativeTarget "Calculus HelperTests" */;
+			buildPhases = (
+				ECA6DF962BC5AEC500A8531E /* Sources */,
+				ECA6DF972BC5AEC500A8531E /* Frameworks */,
+				ECA6DF982BC5AEC500A8531E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA6DF9C2BC5AEC500A8531E /* PBXTargetDependency */,
+			);
+			name = "Calculus HelperTests";
+			productName = CalculusTests;
+			productReference = ECA6DF9A2BC5AEC500A8531E /* Calculus HelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECA6DFA32BC5AEC500A8531E /* Calculus HelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA6DFB42BC5AEC500A8531E /* Build configuration list for PBXNativeTarget "Calculus HelperUITests" */;
+			buildPhases = (
+				ECA6DFA02BC5AEC500A8531E /* Sources */,
+				ECA6DFA12BC5AEC500A8531E /* Frameworks */,
+				ECA6DFA22BC5AEC500A8531E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA6DFA62BC5AEC500A8531E /* PBXTargetDependency */,
+			);
+			name = "Calculus HelperUITests";
+			productName = CalculusUITests;
+			productReference = ECA6DFA42BC5AEC500A8531E /* Calculus HelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA6DF822BC5AEC400A8531E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					ECA6DF892BC5AEC400A8531E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					ECA6DF992BC5AEC500A8531E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = ECA6DF892BC5AEC400A8531E;
+					};
+					ECA6DFA32BC5AEC500A8531E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = ECA6DF892BC5AEC400A8531E;
+					};
+				};
+			};
+			buildConfigurationList = ECA6DF852BC5AEC400A8531E /* Build configuration list for PBXProject "Calculus Helper" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA6DF812BC5AEC400A8531E;
+			productRefGroup = ECA6DF8B2BC5AEC400A8531E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA6DF892BC5AEC400A8531E /* Calculus Helper */,
+				ECA6DF992BC5AEC500A8531E /* Calculus HelperTests */,
+				ECA6DFA32BC5AEC500A8531E /* Calculus HelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA6DF882BC5AEC400A8531E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA6DF952BC5AEC400A8531E /* Preview Assets.xcassets in Resources */,
+				ECA6DF922BC5AEC400A8531E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA6DF982BC5AEC500A8531E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA6DFA22BC5AEC500A8531E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA6DF862BC5AEC400A8531E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA6DFBE2BC5CC1B00A8531E /* GraphViewController.swift in Sources */,
+				ECA6DFB92BC5AF1000A8531E /* CalculusApp.swift in Sources */,
+				ECA6DFBC2BC5AF3900A8531E /* ContentView.swift in Sources */,
+				ECA6DFC02BC5CC6D00A8531E /* LineChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA6DF962BC5AEC500A8531E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA6DF9F2BC5AEC500A8531E /* CalculusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA6DFA02BC5AEC500A8531E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA6DFAB2BC5AEC500A8531E /* CalculusUITestsLaunchTests.swift in Sources */,
+				ECA6DFA92BC5AEC500A8531E /* CalculusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA6DF9C2BC5AEC500A8531E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA6DF892BC5AEC400A8531E /* Calculus Helper */;
+			targetProxy = ECA6DF9B2BC5AEC500A8531E /* PBXContainerItemProxy */;
+		};
+		ECA6DFA62BC5AEC500A8531E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA6DF892BC5AEC400A8531E /* Calculus Helper */;
+			targetProxy = ECA6DFA52BC5AEC500A8531E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECA6DFAC2BC5AEC500A8531E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECA6DFAD2BC5AEC500A8531E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA6DFAF2BC5AEC500A8531E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calculus/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZU7644K4V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SAdams.Calculus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECA6DFB02BC5AEC500A8531E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calculus/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZU7644K4V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SAdams.Calculus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECA6DFB22BC5AEC500A8531E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZU7644K4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SAdams.CalculusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculus Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calculus Helper";
+			};
+			name = Debug;
+		};
+		ECA6DFB32BC5AEC500A8531E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZU7644K4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SAdams.CalculusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculus Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calculus Helper";
+			};
+			name = Release;
+		};
+		ECA6DFB52BC5AEC500A8531E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZU7644K4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SAdams.CalculusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calculus;
+			};
+			name = Debug;
+		};
+		ECA6DFB62BC5AEC500A8531E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZU7644K4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SAdams.CalculusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calculus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA6DF852BC5AEC400A8531E /* Build configuration list for PBXProject "Calculus Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA6DFAC2BC5AEC500A8531E /* Debug */,
+				ECA6DFAD2BC5AEC500A8531E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA6DFAE2BC5AEC500A8531E /* Build configuration list for PBXNativeTarget "Calculus Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA6DFAF2BC5AEC500A8531E /* Debug */,
+				ECA6DFB02BC5AEC500A8531E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA6DFB12BC5AEC500A8531E /* Build configuration list for PBXNativeTarget "Calculus HelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA6DFB22BC5AEC500A8531E /* Debug */,
+				ECA6DFB32BC5AEC500A8531E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA6DFB42BC5AEC500A8531E /* Build configuration list for PBXNativeTarget "Calculus HelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA6DFB52BC5AEC500A8531E /* Debug */,
+				ECA6DFB62BC5AEC500A8531E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA6DF822BC5AEC400A8531E /* Project object */;
+}
