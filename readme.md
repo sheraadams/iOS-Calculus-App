@@ -6,7 +6,12 @@
 
 See the [video on YouTube](https://youtu.be/T0gbPCSu9iw)
 
-This is a derivative and integral calculator for mathematical modeling and engineering functions to fit a curve. It is a helpful tool for mathematical modeling and for quick conversion between integrals and derivatives and visualizing these functions. This app was programmed in Swift for iOS. It is compiled on Xcode 15.0 and has been tested on iPhoneSE, IPhone 15 Plus, IPhone 15 Pro, IPhone 15 Pro Max and on iOS 17.4 and iOS 17.2.
+## About the app
+
+This is a derivative and integral calculator app for mathematical modeling and engineering functions to fit a curve. It is a helpful tool for mathematical modeling and for quick conversion between integrals and derivatives and visualizing these functions. 
+
+The app was programmed in Swift for iOS. It is compiled on Xcode 15.0 and has been tested on iPhone SE, iPhone 15 Plus, iPhone 15 Pro, iPhone 15 Pro Max, and on iOS 17.4 and iOS 17.2.
+
 
 ![derivative copy](https://github.com/sheraadams/iOS-Calculus-App/assets/110789514/33ae4a9f-457b-4b54-9feb-c97b8e25e8ed)
 
