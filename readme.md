@@ -1,5 +1,7 @@
 # iOS Calculus Helper App 
 
+View the app on [YouTube](https://www.youtube.com/watch?v=T0gbPCSu9iw).
+
 <p align="left">
   <img src="https://github.com/sheraadams/iOS-Calculus-App/assets/110789514/c87c7675-8aa5-4258-bf7e-f2d18b8ee9d5" width="140">
 </p>
